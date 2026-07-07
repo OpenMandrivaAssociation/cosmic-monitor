@@ -33,3 +33,7 @@ just build-release
 just rootdir=%{buildroot} prefix=%{_prefix} install
 
 %files
+%{_bindir}/cosmic-monitor
+%{_datadir}/applications/com.system76.CosmicMonitor.desktop
+%{_datadir}/metainfo/com.system76.CosmicMonitor.metainfo.xml
+%{_iconsdir}/hicolor/*x*/apps/com.system76.CosmicMonitor.svg
